@@ -30,7 +30,6 @@ public class StringBuilderDemo {
         //6.length
         System.out.println(sb.length());
 
-        //7.
 
     }
 }
