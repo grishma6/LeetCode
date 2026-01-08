@@ -1,0 +1,8 @@
+public class RemovePalindrome {
+    public int removePalindrome(String s){
+        if(s.isEmpty()) return 0;
+
+        if(s.equals(new StringBuilder(s).reverse().toString())) return 1;
+        return 2;
+    }
+}
