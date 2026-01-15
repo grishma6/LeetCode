@@ -14,7 +14,7 @@ public class GroupAnagrams {
             Arrays.sort(arr);
             String key = new String(arr);
 
-            map.putIfAbsent(key, new ArrayList<>());
+            map.putIfAbsent(key, new ArrayList<>());// to avoid nullpointerexception
             map.get(key).add(s);
         }
         return new ArrayList<>(map.values());
