@@ -11,8 +11,8 @@ public class GroupAnagrams {
 
         for(String s : str){
             char[] arr = s.toCharArray();
-            Arrays.sort(arr);
-            String key = new String(arr);
+            Arrays.sort(arr);//
+            String key = new String(arr);//['a','e','t']  →  "aet"
 
             map.putIfAbsent(key, new ArrayList<>());// to avoid nullpointerexception
             map.get(key).add(s);
