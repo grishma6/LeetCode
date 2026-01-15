@@ -16,6 +16,7 @@ public class singleNumberIII {
         int idx = 0;
 
 
+        // find numbers that appear once
         for(int n : map.keySet()){
             if(map.get(n)==1){
                 ans[idx++] = n;
