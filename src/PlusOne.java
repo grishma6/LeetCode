@@ -12,7 +12,7 @@ public class PlusOne {
         //
         //If all digits were 9, create a new array with one extra space
 
-        for(int i = digits.length-1; i>=0; i++){
+        for(int i = digits.length-1; i>=0; i--){
             if(digits[i] < 9){
                 digits[i]++;
                 return digits;
