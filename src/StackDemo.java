@@ -37,7 +37,5 @@ public class StackDemo {
 
         //to search a word
         System.out.println(stack.search("Janu"));
-
-
     }
 }
