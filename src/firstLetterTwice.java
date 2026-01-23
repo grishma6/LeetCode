@@ -1,7 +1,7 @@
 import java.util.HashSet;
 
 public class firstLetterTwice {
-    public char repeatedCharcter(String s){
+    public char repeatedCharacter(String s){
         HashSet<Character> map = new HashSet<>();
 
         for(char c : s.toCharArray()){
