@@ -4,6 +4,14 @@ import java.util.List;
 
 public class ThreeSum {
     public List<List<Integer>> threeSum(int[] nums){
+        //Input: nums = [-1,0,1,2,-1,-4]
+        //Output: [[-1,-1,2],[-1,0,1]]
+
+        //Input: nums = [0,1,1]
+        //Output: []
+
+        //Input: nums = [0,0,0]
+        //Output: [[0,0,0]]
         int target = 0;
 
         List<List<Integer>> result = new ArrayList<>();
