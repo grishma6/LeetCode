@@ -9,7 +9,7 @@ public class MinimumCommonValue {
         //Output: 2
 
         Arrays.sort(nums1);
-        Arrays.sort(nums1);
+        Arrays.sort(nums2);
 
         int i = 0;
         int j = 0;
