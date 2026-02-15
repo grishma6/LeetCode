@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MaximumProductOfThreeNumbers {
     public int maximumProduct(int[] nums){
         //Input: nums = [1,2,3]
@@ -8,6 +10,7 @@ public class MaximumProductOfThreeNumbers {
 
         //Input: nums = [-1,-2,-3]
         //Output: -6
+        Arrays.sort(nums);
         int n = nums.length;
 
         int product1 = nums[n-1]*nums[n-2]*nums[n-3];
